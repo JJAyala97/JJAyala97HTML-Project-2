@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="2styles.css">
+    <title>Project #2</title>
+</head>
+<body>
+    <div class="entire">
+        <header>
+            <h1>freeCodeCamp Survey Form</h1>
+            <h2>Thank you for taking the time to help us improve the platform</h2>
+        </header>
+
+
+        <div class="theform">
+        <form>
+
+            <div class="info">
+                <label for="name">Name</label><br>
+                <input placeholder="Enter your name" type="text" id="name" name="name"><br>
+                <label for="email">Email</label><br>
+                <input placeholder="Enter your email" type="text" id="email" name="email"><br>
+                <label for="age">Age</label><br>
+                <input placeholder="Enter your age" type="text" id="age" name="age"><br>
+            </div>
+
+            <label for="role">Which option best describes your current role?</label><br>
+            <select id="role" name="role"><br>
+                <option value="none" selected disabled hidden>Select current role</option> 
+                <option value="student">Student</option>
+                <option value="fulltime">Full Time Job</option>
+                <option value="learner">Full Time Learner</option>    
+                <option value="prefernot">Prefer not to say</option> 
+                <option value="other">Other</option>
+            </select> <br>
+                
+            <p>Would you recommend freeCodeCamp to a friend?</p>
+            <input type="radio" id="definitely" name="definitely">
+            <label for="definitely">Definitely</label> <br>
+            <input type="radio" id="maybe" name="maybe">
+            <label for="maybe">Maybe</label> <br>
+            <input type="radio" id="notsure" name="notsure">
+            <label for="notsure">Not Sure</label> <br><br>
+
+            <label for="role">What is your favorite feature of freeCodeCamp?</label><br>
+            <select id="role" name="role"><br>
+                <option value="none" selected disabled hidden>Select an option</option> 
+                <option value="challenges">Challenges</option>
+                <option value="projects">Projects</option>
+                <option value="community">Community</option>  
+                <option value="opensource">Open Source</option>    
+            </select> <br>
+
+            <p>What would you like to see improved? (Check all that apply)</p>
+            <input type="checkbox" id="front" name="front" value="front">
+            <label for="front"> Front-end Projects</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Back-end Projects</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Data Visualization</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Challenges</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Open Source Community</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Gitter help rooms</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Videos</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> City Meetups</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Wiki</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Forum</label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Additional Courses</label><br>
+
+            <p>Any comments or suggestions?</p>
+            <textarea placeholder="Enter your comment here..." rows="4" cols="40"></textarea><br>
+
+            <input type="submit">
+        </form>
+        </div>
+
+    </div>
+</body>
+</html>
